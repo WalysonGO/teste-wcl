@@ -8,7 +8,7 @@
     "start": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Walyson GO",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
