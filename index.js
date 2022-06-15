@@ -6,7 +6,7 @@ const port = 8090;
 // res = Response = é a resposta do servidor
 
 app.get('/', (req, res) => {
-    res.send("<h1>Deu certu o nodemon asdasdas</h1>")
+    res.send("<h1>Hello World! =)</h1>")
 })
 
 // arrow function () => {}
