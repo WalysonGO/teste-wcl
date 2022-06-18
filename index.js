@@ -30,6 +30,17 @@ app.post('/', async(req, res) => {
 })
 
 
+app.get('/buscar', async(req, res) => {
+    const { cep }  = req.query;
+    const { data } = await axios.get(`https://viacep.com.br/ws/${cep}/json/`);
+    const dataResult = {
+        data
+    }
+    return res.send(dataResult);
+})
+
+
+
 // arrow function () => {}
 app.listen(port, () => {
     console.log(`http://localhost:${port}`);
