@@ -53,7 +53,7 @@ div{
 
 @keyframes run {
 
-    0%{ left: -100px;filter: drop-shadow(5px 5px 4px black)}
+    0%{ left: -150px;filter: drop-shadow(5px 5px 4px black)}
     20% {filter: drop-shadow(1px 1px 4px black)}
     30%{ filter: drop-shadow(5px 5px 4px black)}
     40% {filter: drop-shadow(1px 1px 6px black)}
