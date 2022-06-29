@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #4F7ABB;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-top:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 510px;
+    
+}
+
+table {
+    
+    background: white;
+    width: 700px;
+    height: 375px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px;
+}
+input {
+    width: 365px;
+    height: 40px;
+    outline: solid 30px #ED8103;
+    border-radius: 5px;
+}
+
+label {
+    margin-top: 5px;
+}
+
+div{
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+}
+
+.infoAdress {
+    width: 500px;
+}
+
+
+@keyframes run {
+
+    0%{ left: -100px;filter: drop-shadow(5px 5px 4px black)}
+    20% {filter: drop-shadow(1px 1px 4px black)}
+    30%{ filter: drop-shadow(5px 5px 4px black)}
+    40% {filter: drop-shadow(1px 1px 6px black)}
+    50% {filter: drop-shadow(3px 3px 4px black)}
+    60%{ filter: drop-shadow(5px 5px 6px black)}
+    80% {filter: drop-shadow(1px 1px 4px black)}
+    100% { left: 1600px;filter: drop-shadow(5px 5px 4px black)}
+}
+
+img {
+    position: absolute;
+    top: 15px;
+    width: 144px;
+    height: 54px;
+    filter: drop-shadow(5px 5px 4px black);
+    animation: run 20s ease-in-out infinite;
+} 
